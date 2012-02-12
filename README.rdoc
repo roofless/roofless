@@ -1,1 +1,3 @@
 = Roofless Records
+
+https://github.com/roofless/roofless/raw/master/app/assets/images/animated_logo.gif
