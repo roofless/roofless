@@ -1,0 +1,22 @@
+# gem bundler stuff
+.bundle
+
+# ignore all log files
+log/*.log
+
+# ignore all files in temp directory
+tmp/*
+tmp/**/*
+
+# Textmate
+tmtags
+
+# Mac OSX hidden files
+.DS_Store
+
+# environment specific config files
+config/database.yml
+
+# rails 3.1 asset directories
+.sass-cache/
+public/assets/
