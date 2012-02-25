@@ -19,3 +19,5 @@ gem 'refinerycms',              '~> 1.0.9'
 gem 'refinerycms-i18n',         '~> 1.0.0'
 
 # END USER DEFINED
+
+gem 'refinerycms-shows', '1.0', :path => 'vendor/engines'

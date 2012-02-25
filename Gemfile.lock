@@ -1,3 +1,8 @@
+PATH
+  remote: vendor/engines
+  specs:
+    refinerycms-shows (1.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -185,5 +190,6 @@ DEPENDENCIES
   pg
   refinerycms (~> 1.0.9)
   refinerycms-i18n (~> 1.0.0)
+  refinerycms-shows (= 1.0)!
   sass
   taps

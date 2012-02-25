@@ -1,0 +1,51 @@
+<% content_for :body_content_title do %>
+  <%= @show.name %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Name</h1>
+    <p>
+      <%=raw @show.name %>
+    </p>
+  </section>
+  <section>
+    <h1>Date</h1>
+    <p>
+      <%=raw @show.date %>
+    </p>
+  </section>
+  <section>
+    <h1>Flyer</h1>
+    <p>
+      <%= image_fu @show.flyer, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Description</h1>
+    <p>
+      <%=raw @show.description %>
+    </p>
+  </section>
+  <section>
+    <h1>Location</h1>
+    <p>
+      <%=raw @show.location %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="shows">
+      <% @shows.each do |show| %>
+        <li>
+          <%= link_to show.name, show_path(show) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>
