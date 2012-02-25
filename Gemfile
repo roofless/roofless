@@ -4,7 +4,7 @@ gem 'pg'
 gem 'haml'
 gem 'sass'
 gem 'heroku'
-
+gem 'taps'
 
 # REFINERY CMS ================================================================
 # Anything you put in here will be overridden when the app gets updated.
