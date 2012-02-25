@@ -1,0 +1,57 @@
+<% content_for :body_content_title do %>
+  <%= @product.catalog_number %>
+<% end %>
+
+<% content_for :body_content_left do %>
+  <section>
+    <h1>Catalog Number</h1>
+    <p>
+      <%=raw @product.catalog_number %>
+    </p>
+  </section>
+  <section>
+    <h1>Name</h1>
+    <p>
+      <%=raw @product.name %>
+    </p>
+  </section>
+  <section>
+    <h1>Artist</h1>
+    <p>
+      <%=raw @product.artist %>
+    </p>
+  </section>
+  <section>
+    <h1>Description</h1>
+    <p>
+      <%=raw @product.description %>
+    </p>
+  </section>
+  <section>
+    <h1>Image</h1>
+    <p>
+      <%= image_fu @product.image, nil %>
+    </p>
+  </section>
+  <section>
+    <h1>Paypal Embed Code</h1>
+    <p>
+      <%=raw @product.paypal_embed_code %>
+    </p>
+  </section>
+<% end %>
+
+<% content_for :body_content_right do %>
+  <aside>
+    <h2><%= t('.other') %></h2>
+    <ul id="products">
+      <% @products.each do |product| %>
+        <li>
+          <%= link_to product.catalog_number, product_path(product) %>
+        </li>
+      <% end %>
+    </ul>
+  </aside>
+<% end %>
+
+<%= render :partial => "/shared/content_page" %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120225221343) do
+ActiveRecord::Schema.define(:version => 20120225224010) do
 
   create_table "images", :force => true do |t|
     t.string   "image_mime_type"
@@ -81,6 +81,20 @@ ActiveRecord::Schema.define(:version => 20120225221343) do
   add_index "pages", ["lft"], :name => "index_pages_on_lft"
   add_index "pages", ["parent_id"], :name => "index_pages_on_parent_id"
   add_index "pages", ["rgt"], :name => "index_pages_on_rgt"
+
+  create_table "products", :force => true do |t|
+    t.string   "catalog_number"
+    t.string   "name"
+    t.string   "artist"
+    t.text     "description"
+    t.integer  "image_id"
+    t.text     "paypal_embed_code"
+    t.integer  "position"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "products", ["id"], :name => "index_products_on_id"
 
   create_table "refinery_settings", :force => true do |t|
     t.string   "name"
