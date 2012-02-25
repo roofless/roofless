@@ -4,102 +4,129 @@
   padding: 0
 
 .clear
-  clear:both
+  clear: both
 
-html, body
-  margin: 0
-  padding: 0
-
-body, td, th
-  height: 100%
-  background-color: white
+body
   font-family: Geneva, Arial, Helvetica, sans-serif
   font-size: 12px
-  color: #17333A
-  line-height: 20px
-  text-align: center
-  min-width: 800px
+  color: #333
 
-h1
-  padding: 10px 0 0 0
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
-  font-size: 20px
-
-h2
-  padding: 0
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
-  font-size: 14px
-
-
-h3
-  margin: 0
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
-  font-size: 14px
-  font-variant: small-caps
-
-#bloglink a:link
-  color: #00F
-#bloglink a:visited
-  color: #00F
-#bloglink a:hover
-  color: #00F
-#cataloglink a:link
-  color: #00FE89
-#cataloglink a:visited
-  color: #00FE89
-#cataloglink a:hover
-  color: #00FE89
-#showslink a:link
-  color: #EF00FE
-#showslink a:visited
-  color: #EF00FE
-#showslink a:hover
-  color: #EF00FE
-#contactlink a:link
-  color: #F00
-#contactlink a:visited
-  color: #F00
-#contactlink a:hover
-  color: #F00
-
-a:link
-  color: #023859
-  text-decoration: none
-
-a:visited
-  text-decoration: none
-  color: #023859
-
-a:hover
-  text-decoration: underline
+a
   color: #DE4FA1
+  text-decoration: none
+  &:hover
+    color: #DE4FA1 !important
+    text-decoration: underline
 
-.showlist
-  margin: 5px 0 10px 210px
 
+// roofless logo
+h1#logo
+  text-indent: -9999px
+  background: url(/images/animated_logo.gif) center center no-repeat
+  height: 150px
+  margin: 15px 0
 
-.linklist
-  margin: 5px 0 0
-
-#content
-  min-height: 93%
-  height: auto
-  margin: 0 auto
+// main navigation
+#menu
+  text-align: center
   width: 100%
-  text-align: left
-  margin-top: 5px
+  margin-bottom: 50px
+  ul
+    li
+      display: block
+      float: none
+      text-transform: uppercase
+      margin: 0 0 5px
+      &#item_0 a
+        color: blue
+      &#item_1 a
+        color: #00FE89
+      &#item_2 a
+        color: #EF00FE
+      &#item_3 a
+        color: red
+      a
+        text-decoration: none
+        font-size: 13px
+        font-weight: bold
+        &:hover, &.selected
+          text-decoration: underline
 
-#logobox
-  margin: -5px 0 0 0
+// hide default page titles supplied by refinery
+h1#body_content_title
+  display: none
 
-#contentbox
-  margin-left: auto
-  margin-right: auto
-  width: 60%
-  background: white
-  font-size: 11px
-  padding: 0 15px 15px
-  border: none
+// page titles
+h2
+  text-transform: uppercase
+  text-decoration: underline
+  font-size: 14px
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif
+  margin-bottom: 5px
 
-.cataloglist
-  margin: 5px 0
+//------------------------------------------------------------------------------------------------------------------
+//                                                    CONTACT PAGE
+//------------------------------------------------------------------------------------------------------------------
+body#page_4
+  text-align: center
+
+  #body_content_right
+    margin-right: 150px
+    width: 250px
+  #links
+    a
+      display: block
+      color: #333
+      margin-bottom: 5px
+
+//------------------------------------------------------------------------------------------------------------------
+//                                                      FOOTER
+//------------------------------------------------------------------------------------------------------------------
+#page_container > footer
+  margin: 50px auto 0
+  padding: 10px 0
+  p#copyright
+    margin-top: 10px
+  .content
+    background: url(/images/footer_banner.png) top center no-repeat
+    height: 195px
+    width: 645px
+    margin: 0 auto
+    padding: 15px
+    #social_links
+      text-align: left
+      a
+        text-indent: -9999px
+        width: 32px
+        height: 32px
+        background-repeat: no-repeat
+        background-image: url(/images/social_icons.png)
+        display: inline-block
+        margin: 3px
+        &.facebook
+          background-position: 0 0
+        &.flickr
+          background-position: 0 -82px
+        &.rss
+          background-position: 0 -164px
+        &.soundcloud
+          background-position: 0 -246px
+        &.twitter
+          background-position: 0 -328px
+        &.vimeo
+          background-position: 0 -410px
+        &.youtube
+          background-position: 0 -492px
+
+  #mc_embed_signup
+    margin-top: 10px
+    .button
+      background-color: #666
+      &:hover
+        background-color: #999
+    form
+      padding: 0
+
+
+
+
