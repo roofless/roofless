@@ -1,8 +1,9 @@
 source 'http://rubygems.org'
 
-gem 'sqlite3'
+gem 'pg'
 gem 'haml'
 gem 'sass'
+gem 'heroku'
 
 
 # REFINERY CMS ================================================================

@@ -29,6 +29,7 @@ GEM
       activesupport (= 3.0.11)
     activesupport (3.0.11)
     acts_as_indexed (0.7.7)
+    addressable (2.2.6)
     arel (2.0.10)
     awesome_nested_set (2.1.2)
       activerecord (>= 3.0.0)
@@ -49,8 +50,15 @@ GEM
       activemodel (>= 3.0.0)
       activerecord (>= 3.0.0)
     haml (3.1.4)
+    heroku (2.20.0)
+      launchy (>= 0.3.2)
+      rest-client (~> 1.6.1)
+      rubyzip
+      term-ansicolor (~> 1.0.5)
     i18n (0.5.0)
     json (1.6.5)
+    launchy (2.0.5)
+      addressable (~> 2.2.6)
     mail (2.2.19)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -58,6 +66,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.17.2)
     orm_adapter (0.0.6)
+    pg (0.13.2)
     polyglot (0.3.3)
     rack (1.2.5)
     rack-cache (1.1)
@@ -136,12 +145,15 @@ GEM
     refinerycms-settings (1.0.9)
       activerecord (~> 3.0.10)
       refinerycms-base (= 1.0.9)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
     routing-filter (0.3.0)
       actionpack
+    rubyzip (0.9.6.1)
     sass (3.1.15)
     seo_meta (1.1.1)
       refinerycms-generators (~> 1.0.1)
-    sqlite3 (1.3.5)
+    term-ansicolor (1.0.7)
     thor (0.14.6)
     treetop (1.4.10)
       polyglot
@@ -157,7 +169,8 @@ PLATFORMS
 
 DEPENDENCIES
   haml
+  heroku
+  pg
   refinerycms (~> 1.0.9)
   refinerycms-i18n (~> 1.0.0)
   sass
-  sqlite3
