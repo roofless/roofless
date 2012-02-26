@@ -15,7 +15,7 @@ a
   color: #DE4FA1
   text-decoration: none
   &:hover
-    color: #DE4FA1 !important
+    color: #DE4FA1
     text-decoration: underline
 
 
@@ -78,14 +78,59 @@ body#page_7
       display: block
       color: #333
       margin-bottom: 5px
+      &:hover
+        color: #DE4FA1 !important
+
+//------------------------------------------------------------------------------------------------------------------
+//                                                    CONTACT PAGE
+//------------------------------------------------------------------------------------------------------------------
+body#page_10
+  #products
+    .product
+      margin-right: 30px
+      float: left
+      img
+        display: block
+        max-height: 150px
+  #products_show
+    #sidebar
+      float: left
+      width: 300px
+      margin-right: 20px
+      #product_image
+        img
+          width: 287px
+      #purchase_button
+        margin-top: 20px
+        text-align: center
+
+    #main_content
+      float: left
+      max-width: 500px
+      #details
+        .name
+          font-weight: bold
+          font-size: 18px
+        .artist
+          font-style: italic
+          font-size: 14px
+          color: #999
+        .catalog_number
+          font-size: 10px
+          text-transform: uppercase
+          margin-top: 3px
+      #description
+        line-height: 18px
+        margin-top: 15px
 
 //------------------------------------------------------------------------------------------------------------------
 //                                                      FOOTER
 //------------------------------------------------------------------------------------------------------------------
 #page_container > footer
-  margin: 50px auto 0
+  margin: 150px auto 0
   padding: 10px 0
-  p#copyright
+  #copyright
+    text-align: center
     margin-top: 10px
   .content
     background: url(/images/footer_banner.png) top center no-repeat

@@ -1,0 +1,6 @@
+-content_for :body_content_left do
+  #products
+    -@products.each do |product|
+      .product= link_to image_tag(product.image.url), product_path(product)
+
+= render "/shared/content_page"
