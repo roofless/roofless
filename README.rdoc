@@ -1,1 +1,15 @@
 http://github.com/roofless/roofless/raw/master/public/images/animated_logo.gif
+
+==TODO
+* Rollover state for product/show thumbnails and show flyers
+* Add hrefs to social networking links
+* Set up an Amazon S3 account
+* Use AS3 to store images
+* Style shows#index
+* Style shows#show
+* Add price to products (and maybe shows?)
+
+
+heroku config:add S3_BUCKET=roofless-production S3_KEY=AKIAITFGXVKNZKUJGPOA S3_SECRET=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 S3_REGION=XXXXXXXXXX
+Access Key ID     = AKIAITFGXVKNZKUJGPOA
+Secret Access Key = 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

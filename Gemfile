@@ -4,6 +4,7 @@ gem 'pg'
 gem 'haml'
 gem 'sass'
 gem 'heroku'
+gem 'fog'
 
 group :development do
   gem 'taps'
