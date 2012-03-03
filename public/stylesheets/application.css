@@ -72,10 +72,12 @@ body#page_7 {
 
 body#page_10 #products .product {
   margin-right: 30px;
-  float: left; }
+  float: left;
+  margin-bottom: 40px; }
   body#page_10 #products .product img {
     display: block;
-    max-height: 150px; }
+    max-height: 150px;
+    border: 1px solid #f0f0f0; }
 body#page_10 #products_show #sidebar {
   float: left;
   width: 300px;

@@ -5,7 +5,7 @@ ENV['S3_SECRET'] = S3['s3_secret']
 ENV['S3_BUCKET'] = S3['s3_bucket']
 
 # Don't worry about verifing SSL while in development.
-Excon.ssl_verify_peer = false
+Excon.defaults[:ssl_verify_peer] = false
 
 Roofless::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
