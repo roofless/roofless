@@ -6,8 +6,8 @@
 
     #sidebar
       #product_image= image_tag @product.image.url
-      #price=number_to_currency(@product.price)
-      #purchase_button=raw @product.paypal_embed_code
+      #price= @product.price
+      #purchase_button= raw @product.paypal_embed_code
 
     #main_content
       #details
