@@ -12,20 +12,7 @@
     <a target="_blank" href="<%= RefinerySetting.get('youtube_url') %>"class="youtube">Roofless YouTube</a>
   </div><!--social_links-->
 
-  <!-- Begin MailChimp Signup Form -->
-  <link href="http://cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
-  <style type="text/css">
-    #mc_embed_signup{background: transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-  </style>
-  <div id="mc_embed_signup">
-  <form action="http://rooflessrex.us4.list-manage.com/subscribe/post?u=65de875c572fa50f0d0194f6f&amp;id=5a69cdb2b7" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Subscribe to our mailing list" required>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-  </form>
-  </div>
-  <!--End mc_embed_signup-->
+  <%= RefinerySetting.get('mailing_list_signup_form').html_safe %>
 
 </div><!--banner-->
 
