@@ -8,6 +8,7 @@ gem 'fog'
 
 group :development do
   gem 'taps'
+  gem 'pry'
 end
 
 # REFINERY CMS ================================================================

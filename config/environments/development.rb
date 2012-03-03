@@ -1,3 +1,12 @@
+# Set environment variables necessary for Amazon 3S
+S3 = YAML.load(File.read("#{Rails.root}/config/s3.yml"))
+ENV['S3_KEY'] = S3['s3_key']
+ENV['S3_SECRET'] = S3['s3_secret']
+ENV['S3_BUCKET'] = S3['s3_bucket']
+
+# Don't worry about verifing SSL while in development.
+Excon.ssl_verify_peer = false
+
 Roofless::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 

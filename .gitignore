@@ -16,6 +16,7 @@ tmtags
 
 # environment specific config files
 config/database.yml
+config/s3.yml
 
 # rails 3.1 asset directories
 .sass-cache/
