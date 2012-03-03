@@ -2,9 +2,9 @@ http://github.com/roofless/roofless/raw/master/public/images/animated_logo.gif
 
 ==TODO
 * Rollover state for product/show thumbnails and show flyers
-* Add hrefs to social networking links
-* Set up an Amazon S3 account
-* Use AS3 to store images
+
 * Style shows#index
 * Style shows#show
-* Add price to products (and maybe shows?)
+
+* Add price to products
+* Add hrefs to social networking links
