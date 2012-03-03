@@ -2,9 +2,8 @@ http://github.com/roofless/roofless/raw/master/public/images/animated_logo.gif
 
 ==TODO
 * Rollover state for product/show thumbnails and show flyers
-
 * Style shows#index
 * Style shows#show
-
-* Add price to products
-* Add hrefs to social networking links
+* Domain setup
+* Update tumblr links
+* Update tumblr footer
