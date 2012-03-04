@@ -4,6 +4,6 @@
       %h2.year=year
       -shows.each do |show|
         - title = "#{show.name} <span class='date'>#{show.date.strftime('%A, %b %e, %Y')}</span>"
-        .show= link_to image_tag(show.flyer.url, title: title), show
+        .show= link_to image_tag(show.flyer.try(:url), title: title), show
       .clear
 = render "/shared/content_page"

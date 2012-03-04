@@ -4,7 +4,7 @@
 -content_for :body_content_left do
   #shows_show
     #sidebar
-      #product_image= image_tag @show.flyer.url
+      #product_image= image_tag @show.flyer.try(:url)
 
     #main_content
       #details

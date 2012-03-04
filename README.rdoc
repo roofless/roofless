@@ -1,8 +1,6 @@
 http://github.com/roofless/roofless/raw/master/public/images/animated_logo.gif
 
 == TODO
-* Domain setup
 * Use single settings var for all footer links
-
-== tumblr updates
-* footer links/style
+* update tumblr footer links/style
+* Change name from products to catalog
