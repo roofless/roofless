@@ -39,10 +39,12 @@ h1#logo {
     #menu ul li#item_0 a {
       color: blue; }
     #menu ul li#item_1 a {
-      color: #00fe89; }
+      color: #ff9100; }
     #menu ul li#item_2 a {
-      color: #ef00fe; }
+      color: #00fe89; }
     #menu ul li#item_3 a {
+      color: #ef00fe; }
+    #menu ul li#item_4 a {
       color: red; }
     #menu ul li a {
       text-decoration: none;
