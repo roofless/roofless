@@ -18,6 +18,9 @@ a {
     color: #de4fa1;
     text-decoration: underline; }
 
+p, ul, ol {
+  margin-bottom: 15px; }
+
 h1#logo {
   text-indent: -9999px;
   background: url(/images/animated_logo.gif) center center no-repeat;
@@ -70,50 +73,72 @@ body#page_7 {
     body#page_7 #links a:hover {
       color: #de4fa1 !important; }
 
-body#page_10 #products .product {
+body#page_10 #products h2.year, body#page_10 #shows h2.year, body#page_9 #products h2.year, body#page_9 #shows h2.year {
+  text-decoration: none;
+  font-size: 22px;
+  border-bottom: 3px groove #00fe89;
+  margin: 10px 0 12px; }
+body#page_10 #products .product, body#page_10 #products .show, body#page_10 #shows .product, body#page_10 #shows .show, body#page_9 #products .product, body#page_9 #products .show, body#page_9 #shows .product, body#page_9 #shows .show {
   margin-right: 30px;
   float: left;
   margin-bottom: 40px; }
-  body#page_10 #products .product img {
+  body#page_10 #products .product a:hover, body#page_10 #products .show a:hover, body#page_10 #shows .product a:hover, body#page_10 #shows .show a:hover, body#page_9 #products .product a:hover, body#page_9 #products .show a:hover, body#page_9 #shows .product a:hover, body#page_9 #shows .show a:hover {
+    text-decoration: none; }
+  body#page_10 #products .product img, body#page_10 #products .show img, body#page_10 #shows .product img, body#page_10 #shows .show img, body#page_9 #products .product img, body#page_9 #products .show img, body#page_9 #shows .product img, body#page_9 #shows .show img {
     display: block;
     max-height: 150px;
     border: 1px solid #f0f0f0; }
-body#page_10 #products_show #sidebar {
+body#page_10 #products_show #sidebar, body#page_10 #shows_show #sidebar, body#page_9 #products_show #sidebar, body#page_9 #shows_show #sidebar {
   float: left;
   width: 300px;
   margin-right: 20px;
   text-align: center; }
-  body#page_10 #products_show #sidebar #price {
+  body#page_10 #products_show #sidebar #price, body#page_10 #shows_show #sidebar #price, body#page_9 #products_show #sidebar #price, body#page_9 #shows_show #sidebar #price {
     display: inline-block;
     vertical-align: 7px;
     font-weight: bold;
     font-size: 16px;
     margin-right: 15px; }
-  body#page_10 #products_show #sidebar #product_image img {
+  body#page_10 #products_show #sidebar #product_image img, body#page_10 #shows_show #sidebar #product_image img, body#page_9 #products_show #sidebar #product_image img, body#page_9 #shows_show #sidebar #product_image img {
     width: 287px; }
-  body#page_10 #products_show #sidebar #purchase_button {
+  body#page_10 #products_show #sidebar #purchase_button, body#page_10 #shows_show #sidebar #purchase_button, body#page_9 #products_show #sidebar #purchase_button, body#page_9 #shows_show #sidebar #purchase_button {
     display: inline-block;
     margin-top: 20px;
     text-align: center; }
-    body#page_10 #products_show #sidebar #purchase_button form {
+    body#page_10 #products_show #sidebar #purchase_button form, body#page_10 #shows_show #sidebar #purchase_button form, body#page_9 #products_show #sidebar #purchase_button form, body#page_9 #shows_show #sidebar #purchase_button form {
       display: inline-block; }
-body#page_10 #products_show #main_content {
+body#page_10 #products_show #main_content, body#page_10 #shows_show #main_content, body#page_9 #products_show #main_content, body#page_9 #shows_show #main_content {
   float: left;
   max-width: 500px; }
-  body#page_10 #products_show #main_content #details .name {
+  body#page_10 #products_show #main_content #details .name, body#page_10 #shows_show #main_content #details .name, body#page_9 #products_show #main_content #details .name, body#page_9 #shows_show #main_content #details .name {
     font-weight: bold;
     font-size: 18px; }
-  body#page_10 #products_show #main_content #details .artist {
+  body#page_10 #products_show #main_content #details .artist, body#page_10 #products_show #main_content #details .location, body#page_10 #shows_show #main_content #details .artist, body#page_10 #shows_show #main_content #details .location, body#page_9 #products_show #main_content #details .artist, body#page_9 #products_show #main_content #details .location, body#page_9 #shows_show #main_content #details .artist, body#page_9 #shows_show #main_content #details .location {
     font-style: italic;
     font-size: 14px;
     color: #999999; }
-  body#page_10 #products_show #main_content #details .catalog_number {
+  body#page_10 #products_show #main_content #details .catalog_number, body#page_10 #shows_show #main_content #details .catalog_number, body#page_9 #products_show #main_content #details .catalog_number, body#page_9 #shows_show #main_content #details .catalog_number {
     font-size: 10px;
     text-transform: uppercase;
     margin-top: 3px; }
-  body#page_10 #products_show #main_content #description {
+  body#page_10 #products_show #main_content #description, body#page_10 #shows_show #main_content #description, body#page_9 #products_show #main_content #description, body#page_9 #shows_show #main_content #description {
     line-height: 18px;
     margin-top: 15px; }
+    body#page_10 #products_show #main_content #description img, body#page_10 #shows_show #main_content #description img, body#page_9 #products_show #main_content #description img, body#page_9 #shows_show #main_content #description img {
+      display: inline;
+      max-height: none;
+      border: 1px solid #f0f0f0; }
+    body#page_10 #products_show #main_content #description ul, body#page_10 #products_show #main_content #description ol, body#page_10 #shows_show #main_content #description ul, body#page_10 #shows_show #main_content #description ol, body#page_9 #products_show #main_content #description ul, body#page_9 #products_show #main_content #description ol, body#page_9 #shows_show #main_content #description ul, body#page_9 #shows_show #main_content #description ol {
+      margin-left: 18px; }
+    body#page_10 #products_show #main_content #description h1, body#page_10 #shows_show #main_content #description h1, body#page_9 #products_show #main_content #description h1, body#page_9 #shows_show #main_content #description h1 {
+      font-size: 16px;
+      margin: 15px 0 10px; }
+    body#page_10 #products_show #main_content #description h2, body#page_10 #shows_show #main_content #description h2, body#page_9 #products_show #main_content #description h2, body#page_9 #shows_show #main_content #description h2 {
+      font-size: 14px;
+      margin: 10px 0 5px; }
+    body#page_10 #products_show #main_content #description h3, body#page_10 #shows_show #main_content #description h3, body#page_9 #products_show #main_content #description h3, body#page_9 #shows_show #main_content #description h3 {
+      font-size: 12px;
+      margin: 10px 0 5px; }
 
 #page_container > footer {
   margin: 150px auto 0;
@@ -159,3 +184,21 @@ body#page_10 #products_show #main_content {
         background-color: #999999; }
     #page_container > footer #mc_embed_signup form {
       padding: 0; }
+
+.hover_caption {
+  background-color: rgba(0, 0, 0, 0.7); }
+
+.hover_caption_wrapper h3.hover_caption_caption {
+  word-wrap: break-word;
+  font-size: 12px !important; }
+  .hover_caption_wrapper h3.hover_caption_caption span.artist {
+    font-size: 14px !important;
+    color: #de4fa1;
+    display: block;
+    margin-top: 5px; }
+  .hover_caption_wrapper h3.hover_caption_caption span.price, .hover_caption_wrapper h3.hover_caption_caption span.date {
+    color: #00fe89;
+    display: block;
+    font-weight: normal; }
+  .hover_caption_wrapper h3.hover_caption_caption span.date {
+    margin-top: 5px; }

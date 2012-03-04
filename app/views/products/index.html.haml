@@ -1,6 +1,7 @@
 -content_for :body_content_left do
   #products
     -@products.each do |product|
-      .product= link_to image_tag(product.image.url), product_path(product)
+      - title = "#{product.name} <span class='artist'>#{product.artist}</span> <span class='price'>#{product.price}</span>"
+      .product= link_to image_tag(product.image.url, title: title), product_path(product)
 
 = render "/shared/content_page"

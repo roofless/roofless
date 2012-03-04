@@ -1,0 +1,16 @@
+-content_for :body_content_title do
+  = @show.name
+
+-content_for :body_content_left do
+  #shows_show
+    #sidebar
+      #product_image= image_tag @show.flyer.url
+
+    #main_content
+      #details
+        .name=raw @show.name
+        .date=raw @show.date.strftime('%A, %b %e, %Y')
+        .location=raw @show.location
+      #description=raw @show.description
+
+= render "/shared/content_page"

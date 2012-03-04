@@ -1,9 +1,10 @@
 http://github.com/roofless/roofless/raw/master/public/images/animated_logo.gif
 
-==TODO
-* Rollover state for product/show thumbnails and show flyers
-* Style shows#index
-* Style shows#show
+== TODO
 * Domain setup
-* Update tumblr links
-* Update tumblr footer
+* Use single settings var for all footer links
+
+== tumblr updates
+* nav links
+* footer links/style
+

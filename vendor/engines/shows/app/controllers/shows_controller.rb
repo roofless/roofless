@@ -20,7 +20,7 @@ class ShowsController < ApplicationController
 protected
 
   def find_all_shows
-    @shows = Show.order('position ASC')
+    @shows = Show.order('date desc').all.group_by { |s| s.date.year }
   end
 
   def find_page
