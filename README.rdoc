@@ -3,7 +3,7 @@ http://github.com/roofless/roofless/raw/master/public/images/animated_logo.gif
 == Using the admin section
 To login, visit +rooflessrex.com/login+ and enter your credentials.
 
-If you're already logged in, you can visit the admin section at: +rooflessrex.com/refinery+.
+If you're already logged in, you can visit the admin section at: +rooflessrex.com/admin+.
 
 == TODO
 * Use single settings var for all footer links to make future editing easier.
