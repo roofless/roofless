@@ -1,6 +1,9 @@
 http://github.com/roofless/roofless/raw/master/public/images/animated_logo.gif
 
+== How to login
+Visit
+
+
 == TODO
 * Use single settings var for all footer links
 * update tumblr footer links/style
-* Change name from products to catalog
