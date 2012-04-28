@@ -90,8 +90,7 @@ body#page_10 #products, body#page_10 #shows, body#page_9 #products, body#page_9 
     margin: 10px 0 12px; }
   body#page_10 #products .product, body#page_10 #products .show, body#page_10 #shows .product, body#page_10 #shows .show, body#page_9 #products .product, body#page_9 #products .show, body#page_9 #shows .product, body#page_9 #shows .show {
     display: inline-block;
-    margin: 0 10px 40px;
-    float: left; }
+    margin: 0 10px 40px; }
     body#page_10 #products .product a:hover, body#page_10 #products .show a:hover, body#page_10 #shows .product a:hover, body#page_10 #shows .show a:hover, body#page_9 #products .product a:hover, body#page_9 #products .show a:hover, body#page_9 #shows .product a:hover, body#page_9 #shows .show a:hover {
       text-decoration: none; }
     body#page_10 #products .product img, body#page_10 #products .show img, body#page_10 #shows .product img, body#page_10 #shows .show img, body#page_9 #products .product img, body#page_9 #products .show img, body#page_9 #shows .product img, body#page_9 #shows .show img {
