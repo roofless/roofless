@@ -94,7 +94,7 @@ body#page_10 #products .product, body#page_10 #products .show, body#page_10 #sho
     text-decoration: none; }
   body#page_10 #products .product img, body#page_10 #products .show img, body#page_10 #shows .product img, body#page_10 #shows .show img, body#page_9 #products .product img, body#page_9 #products .show img, body#page_9 #shows .product img, body#page_9 #shows .show img {
     display: block;
-    max-height: 150px;
+    max-height: 180px;
     border: 1px solid #f0f0f0; }
 body#page_10 #products_show #sidebar, body#page_10 #shows_show #sidebar, body#page_9 #products_show #sidebar, body#page_9 #shows_show #sidebar {
   float: left;
