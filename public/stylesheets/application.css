@@ -27,6 +27,12 @@ h1#logo {
   height: 150px;
   margin: 15px 0; }
 
+#body_content_left .inner {
+  margin-right: 40px; }
+
+#body_content_right ul {
+  list-style: inside; }
+
 #menu {
   text-align: center;
   width: 100%;
