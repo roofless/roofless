@@ -5,6 +5,13 @@ To login, visit +rooflessrex.com/login+ and enter your credentials.
 
 If you're already logged in, you can visit the admin section at: +rooflessrex.com/admin+.
 
+== How to edit the footer
+All the markup for the footer (i.e. social media links, mail chimp form, etc) is stored in a refinery setting called +footer_markup+. To edit:
+
+  log into admin section > click 'Settings' tab > search 'footer_markup' > click edit icon
+
+This might come in handy if you need to, say, update the social media links.
+
 == Syncing data
 
 If you need to clone the latest production date:
@@ -17,7 +24,3 @@ There's only one environment - production. To deploy:
   git push heroku master
 
 You'll need [git](http://git-scm.com/) installed since we're using [Heroku](heroku.com)
-
-
-== TODO
-* Use single settings var for all footer links to make future editing easier.

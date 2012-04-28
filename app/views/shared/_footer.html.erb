@@ -1,20 +1,4 @@
-<div class="content">
-
-  <div id="social_links">
-    <a target="_blank" href="<%= RefinerySetting.get('facebook_url') %>"class="facebook">Roofless Facebook</a>
-    <a target="_blank" href="<%= RefinerySetting.get('flickr_url') %>"class="flickr">Roofless Flickr</a>
-    <a target="_blank" href="<%= RefinerySetting.get('rss_url') %>"class="rss">Roofless RSS Feed</a>
-    <br>
-    <a target="_blank" href="<%= RefinerySetting.get('soundcloud_url') %>"class="soundcloud">Roofless Sound Cloud</a>
-    <a target="_blank" href="<%= RefinerySetting.get('twitter_url') %>"class="twitter">Roofless Twitter</a>
-    <a target="_blank" href="<%= RefinerySetting.get('vimeo_url') %>"class="vimeo">Roofless Vimeo</a>
-    <br>
-    <a target="_blank" href="<%= RefinerySetting.get('youtube_url') %>"class="youtube">Roofless YouTube</a>
-  </div><!--social_links-->
-
-  <%= RefinerySetting.get('mailing_list_signup_form').html_safe %>
-
-</div><!--banner-->
+<%= RefinerySetting.get('footer_markup').html_safe %>
 
 <p id="copyright">
   <%= t('.copyright', :year => Time.now.year,
