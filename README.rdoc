@@ -5,5 +5,19 @@ To login, visit +rooflessrex.com/login+ and enter your credentials.
 
 If you're already logged in, you can visit the admin section at: +rooflessrex.com/admin+.
 
+== Syncing data
+
+If you need to clone the latest production date:
+
+  heroku db:pull --confirm roofless
+
+== Deployment
+There's only one environment - production. To deploy:
+
+  git push heroku master
+
+You'll need [git](http://git-scm.com/) installed since we're using [Heroku](heroku.com)
+
+
 == TODO
 * Use single settings var for all footer links to make future editing easier.
